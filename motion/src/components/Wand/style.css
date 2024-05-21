@@ -1,0 +1,29 @@
+.btn {
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to right,#1a42f3,#c339f5,#f342ac,#f37507);
+  transition: all 1.5s ease;
+  font-family: 'Ropa Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  padding: 0;
+ }
+ 
+.btn span {
+  display: inline-block;
+  padding: 15px 28px;
+  font-size: 17px;
+  border-radius: 20px;
+  background: linear-gradient(to right,#1a42f3,#c339f5,#f342ac,#f37507);;
+  backdrop-filter: blur(20px);
+  transition: 0.4s ease-in-out;
+  transition-property: color;
+  height: 100%;
+  width: 100%;
+  color: white;
+ }
+ 
+ /* button span:hover {
+  backdrop-filter: blur(0px);
+  color: #ffffff;
+ } */
